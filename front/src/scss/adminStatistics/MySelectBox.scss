@@ -1,0 +1,107 @@
+.selection_card {
+  width: 100%;
+  .select {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    &.active {
+      box-shadow: 2px 2px 6px #ddd;
+      .headind {
+        .img {
+          img {
+            transform: translateY(-50%) rotate(180deg);
+          }
+        }
+      }
+      .masc {
+        display: block;
+        box-shadow: 2px 2px 6px #ddd;
+      }
+    }
+    .headind {
+      position: relative;
+      height: 36px;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      padding-right: 8px;
+      cursor: pointer;
+      p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+        color: #42474c;
+      }
+      .img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 34px;
+        box-sizing: border-box;
+        border-right: 1px solid #ddd;
+        background: #f9f9f9;
+        img {
+          display: block;
+          width: 13px;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          margin: 0 auto;
+          transition: all 0.5s;
+        }
+      }
+    }
+    .masc {
+      display: none;
+      position: absolute;
+      background: #fff;
+      top: 40px;
+      right: 1px;
+      left: 1px;
+      z-index: 99;
+      &#big-menu {
+        width: 500px;
+        ul {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          li {
+            width: 50%;
+          }
+        }
+      }
+      ul {
+        max-height: 400px;
+        overflow-y: auto;
+        list-style-type: none;
+        li {
+          .mask-li-cls,
+          a {
+            display: block;
+            padding: 16px;
+            color: #42474c;
+            position: relative;
+            cursor: pointer;
+            &.active {
+              color: #2196f3;
+              font-weight: 700;
+            }
+            &:hover {
+              background: #d0d0d0;
+            }
+            .img {
+              position: absolute;
+              left: 16px;
+              top: 50%;
+              transform: translateY(-50%);
+              img {
+                width: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

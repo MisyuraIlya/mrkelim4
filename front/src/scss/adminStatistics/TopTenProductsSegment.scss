@@ -1,0 +1,23 @@
+.topTenProductsSegment {
+  .select {
+    margin-bottom: 20px;
+  }
+
+  .prod_container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .title_cont {
+    h2 {
+      color: $Title;
+    }
+  }
+}
+
+.divider {
+  border-bottom: 3px solid rgba(187, 187, 187, 0.5);
+  border-radius: 5px;
+  padding-top: 5px;
+  width: 100%;
+}

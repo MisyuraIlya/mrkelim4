@@ -1,0 +1,69 @@
+.NotificationCard {
+  .head {
+    .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 20px;
+    }
+    .centered {
+      display: flex;
+      align-items: center;
+    }
+    background-color: #289fcf;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    p {
+      color: white;
+      margin: 15px 10px 15px 10px;
+    }
+    img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .circle {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 1px solid white;
+    }
+  }
+  .content {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    .title {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      img {
+        padding-left: 10px;
+      }
+
+      .arrow {
+        position: absolute;
+        left: -50px;
+        padding-top: 15px;
+        align-items: center;
+      }
+    }
+
+    .description {
+      padding-top: 10px;
+      font-size: 14px;
+    }
+  }
+
+  transition:
+    opacity 0.3s ease,
+    max-height 0.3s ease;
+}
+
+.NotificationCard.deleted {
+  opacity: 0;
+}

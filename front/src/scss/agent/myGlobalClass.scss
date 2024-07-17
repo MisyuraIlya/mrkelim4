@@ -1,0 +1,232 @@
+$myMain: #41dc93;
+.myCenterAlign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myPadding {
+  padding: 10px;
+}
+
+.myWidth {
+  width: 100%;
+}
+
+.myBorderBottom {
+  border-bottom: 2px solid #00000029;
+}
+
+.textAlign {
+  text-align: center;
+}
+
+.paddingTop {
+  padding-top: 2px;
+}
+
+.successCircle {
+  width: 40px;
+  height: 40px;
+  // background-color: $second;
+  border-radius: 50%;
+}
+
+.myHeight {
+  height: 100%;
+}
+
+.descriptionMin {
+  margin: auto;
+  width: 70%;
+}
+
+.underLine {
+  text-decoration: underline;
+}
+
+.mainBackGround {
+  background: $main;
+}
+
+.myMargin {
+  width: 80%;
+  margin: auto;
+}
+
+.myImgLittle {
+  width: 10px;
+}
+
+.Divider {
+  border-bottom: 1px solid #707070;
+  opacity: 0.3;
+}
+
+.alignLeft {
+  display: flex;
+  justify-content: left;
+}
+
+.alignRight {
+  display: flex;
+  justify-content: right;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.weight {
+  font-weight: 900;
+}
+
+.relative {
+  position: relative;
+}
+
+.loaderHeight {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop_color {
+  color: black !important;
+}
+
+.desktop_border_color {
+  border: 1px solid black !important;
+}
+
+.myMarginTop {
+  margin-top: 20px;
+}
+.myMarginBottom {
+  margin-bottom: 20px;
+}
+
+.loaderHeigth {
+  height: 80vh;
+}
+
+.loaderHeightMin {
+  height: 400px !important;
+}
+
+.redBtn {
+  button {
+    background: #ff6633 !important;
+  }
+}
+.myAlignLeft {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.agent-container {
+  &.break-display {
+    .agentsListMainCont {
+      width: 20%;
+    }
+    .myDisplay {
+      width: 80%;
+    }
+  }
+}
+.myDisplay {
+  .myMobile {
+    display: none;
+  }
+  /*
+	@media all and (max-width: 1050px) {
+		margin-top: 150px;
+		.MyModalCont{
+			width: 95%;
+		}
+		.myDesktop {
+			display: none;
+		}
+
+		.myMobile {
+			display: block;
+		}
+	}
+	
+	@media all and (max-width: 800px) {
+		.TabsBar{
+			display: none;
+		}
+
+
+
+		.colMobile12 {width: 100% !important;}
+		.colMobile11 {width: 91.66666667%!important;}
+		.colMobile10 {width: 83.33333333%!important;}
+		.colMobile9 {width: 75%;}
+		.colMobile8 {width: 66.66666667% !important;}
+		.colMobile7 {width: 58.33333333% !important;}
+		.colMobile6 {width: 50% !important;}
+		.colMobile5 {width: 41.66666667% !important;}
+		.colMobile4 {width: 33.33333333% !important;}
+		.colMobile3 {width: 25% !important;}
+		.colMobile2 {width: 16.66666667% !important;}
+		.colMobile1 {width: 8.33333333% !important;}
+		
+
+		.mobileAlign{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+
+		.CreateModalObjective{
+			width: 90% !important;
+			bottom: 90px;
+		}
+
+		.MySideButton{
+			left: 10% !important;
+			bottom: 13% !important;
+			z-index: 99;
+		}
+
+		
+	}
+	*/
+}
+
+.css-yk16xz-control {
+  border-radius: 20px !important;
+  max-height: 90px;
+}
+
+.css-1pahdxg-control {
+  border-radius: 20px !important;
+}
+.css-2613qy-menu {
+  background: red;
+}
+
+.css-yk16xz-control {
+  height: 30px;
+
+  .Select-placeholder {
+    line-height: 26px;
+  }
+
+  .Select-value {
+    line-height: 26px !important;
+
+    .Select-value-label {
+      line-height: 26px;
+    }
+  }
+
+  .Select-input {
+    height: 26px;
+  }
+}

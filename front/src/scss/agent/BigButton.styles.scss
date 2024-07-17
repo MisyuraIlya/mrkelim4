@@ -1,0 +1,28 @@
+.BigButton {
+  width: 25px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10000;
+  background: $greyBazar;
+  //box-shadow: 0px 4px 20px rgba(132, 147, 168, 0.64);
+  border-radius: 5px;
+  &:hover {
+    background: darken($greyBazar, 10%);
+  }
+  height: 30px;
+  p {
+    font-size: 70px;
+    color: white;
+  }
+}
+
+.suc {
+  //background: #41DC93 !important;
+}
+.fal {
+  //background: #FF6633 !important;
+
+  img {
+    transform: rotate(45deg);
+  }
+}

@@ -1,0 +1,38 @@
+.targetPageCls {
+}
+.TargetListCont {
+  width: 90%;
+  margin: 0px auto;
+  padding: 20px 0;
+  h3 {
+    color: $new2;
+    margin-bottom: 16px;
+    margin-right: 10px;
+  }
+}
+.TargetList {
+  .head {
+    padding: 0 10px 0 10px;
+  }
+  p {
+    color: black;
+    font-size: 14px;
+  }
+
+  .Wrap {
+    font-size: 11px;
+  }
+  .MyCard {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .modalBtn {
+    .Wrap {
+      cursor: pointer;
+      &:hover {
+        box-shadow: 0px 2px 5px rgba(132, 147, 168, 0.36);
+      }
+    }
+  }
+}

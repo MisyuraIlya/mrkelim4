@@ -1,0 +1,31 @@
+.agentsListMainCont {
+  .AgentsList {
+    margin: 75px 8px 0 8px;
+    .AgentsListCont {
+      padding: 0 8px 20px 8px;
+      .AgentsListContRow {
+        margin: 10px 8px;
+        padding: 8px 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        &:hover {
+          background: #d1d9e8;
+        }
+        &.active {
+          background: #d1d9e8;
+        }
+        p {
+          color: $c7;
+          margin: 4px 0;
+        }
+      }
+      a {
+        .set-border {
+          .AgentsListContRow {
+            border: 4px solid #d1d9e8;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.MySideButton {
+  position: fixed;
+  background-color: $myMain;
+  width: 50px;
+  padding: 15px;
+  left: 2%;
+  bottom: 3%;
+  cursor: pointer;
+  z-index: 10000;
+  background: $new2;
+  box-shadow: 0px 4px 20px rgba(132, 147, 168, 0.64);
+  border-radius: 7px;
+  &:hover {
+    background: darken($new2, 10%);
+  }
+  height: 50px;
+  p {
+    font-size: 70px;
+    color: white;
+  }
+}

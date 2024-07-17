@@ -1,0 +1,12 @@
+.TextArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  textarea {
+    padding: 20px;
+    border: 1px solid #d6e0ed;
+    resize: none;
+    border-radius: 10px;
+    width: 100%;
+  }
+}

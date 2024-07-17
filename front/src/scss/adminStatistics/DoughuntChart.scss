@@ -1,0 +1,18 @@
+.chart_doughnut {
+  position: relative;
+  .centered_block {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    h3 {
+      color: $defaultMainTitle;
+    }
+    p {
+      font-size: 24px;
+      color: $Title;
+      font-weight: 900;
+      line-height: 32px;
+    }
+  }
+}

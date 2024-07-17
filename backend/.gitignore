@@ -1,0 +1,6 @@
+vendor
+var
+/public/media/product/
+/public/media/category/
+/public/media/notifications/
+/public/imagesResized/

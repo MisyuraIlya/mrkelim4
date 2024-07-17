@@ -1,0 +1,38 @@
+.salesPerMonthSegment_container {
+  margin-top: 20px;
+
+  .calendar {
+    .calendar_block {
+      margin: 15px;
+      margin-right: 0;
+
+      .btn_year {
+        padding: 10px;
+        padding-right: 0;
+      }
+      .calendar_btn {
+        color: $Title;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 4px;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+        h1 {
+          font-size: 20px;
+        }
+        &:hover {
+          background-color: $btn;
+          color: $main;
+        }
+      }
+
+      .clickedBtn {
+        background-color: $btn;
+        color: $main;
+      }
+    }
+  }
+}

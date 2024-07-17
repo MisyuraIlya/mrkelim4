@@ -1,0 +1,26 @@
+.Wrap {
+  background: #f7f9fc;
+  border-radius: 14px;
+  padding: 15px;
+  width: 80px;
+  font-weight: 700;
+  color: #6b7a99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background: darken(#f7f9fc, 3%);
+  }
+}
+
+.primaryWrap {
+  background-color: #f7f9fc;
+}
+
+.successWrap {
+  background: rgba(65, 220, 147, 0.3);
+}
+
+.errorWrap {
+  background: rgba(210, 51, 92, 0.2);
+}

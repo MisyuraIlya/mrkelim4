@@ -1,0 +1,121 @@
+.InfoBanner {
+  //width: 90%;
+  padding: 16px 0;
+  margin: 0 auto;
+  .iconImg {
+    width: 18px;
+  }
+  .mainName {
+    color: #4d5e80;
+  }
+  .title {
+    color: #1f1f1f;
+    font-weight: 500;
+    margin-right: 4px;
+    font-size: 14px;
+  }
+
+  .desc {
+    color: #6b7a99;
+    font-weight: 600;
+  }
+  li {
+    color: $myMain;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .TabsBar {
+    position: relative;
+    //height: 53px;
+
+    .rb-tabs,
+    .rb-tabs .rb-tabs-header {
+      // position: absolute;
+      // bottom: -24px !important;
+    }
+
+    .rb-tabs .rb-tabs-header .rb-tabs-items .rb-tabs-item {
+      padding: 16px 16px;
+      cursor: pointer;
+      width: 120px !important;
+      text-align: center !important;
+      border-bottom: $myMain !important;
+      color: #2d3e58;
+    }
+
+    .rb-tabs .rb-tabs-header .rb-tabs-active-item {
+      height: 3px;
+      border-radius: 100px;
+      background-color: $myMain;
+      position: absolute;
+      bottom: 0;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      will-change: left, width;
+    }
+
+    .rb-tabs .rb-tabs-header .rb-tabs-items .rb-tabs-item.active {
+      font-weight: 600;
+      color: $myMain;
+    }
+  }
+  .info-box-right-cont {
+    .agent-name {
+      align-items: center;
+      .agent-name-subcont {
+        align-items: center;
+        span {
+          margin-left: 8px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+        h4 {
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      .agentsListMobBtn {
+        display: none;
+      }
+    }
+    .info-box {
+      display: inline-block;
+      margin: 0 4px 0 32px;
+      span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .title {
+        display: inline-block;
+        margin: 0 6px 0 6px;
+      }
+      .desc {
+        display: inline-block;
+        vertical-align: middle;
+        background: #f7f9fc;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+  .info-box-left-cont {
+    .title {
+      margin: 10px 0;
+      text-align: center;
+    }
+    .Wrap {
+      padding: 10px;
+      border-radius: 5px;
+      margin: 0 auto;
+    }
+  }
+}
+.AgentPerformanceInfo {
+  .flexCont {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.rb-tabs-items {
+  display: flex;
+}
